@@ -51,7 +51,7 @@ body {
 }
 
 .infos input,
-.infos span {
+.infos label {
     margin-top: 20px;
 }
 
@@ -63,10 +63,9 @@ body {
     min-width: 250px;
     outline: none;
     color: white;
-    font-family:poppins;
 }
 
-.infos span {
+.infos label {
     position: absolute;
     left: 15px;
     padding: 7px;
@@ -75,9 +74,9 @@ body {
     transition: 0.5s;
 }
 
-.infos input:valid~span,
-.infos input:focus~span,
-.textbox:not(:placeholder-shown).textbox:not(:focus)~span {
+.infos input:valid~label,
+.infos input:focus~label,
+.textbox:not(:placeholder-shown).textbox:not(:focus)~label {
     color: rgba(255, 255, 255, 0.555);
     transform: translateX(10px) translateY(-12px);
     font-size: 10px;
@@ -87,9 +86,9 @@ body {
     padding: 3px 10px;
 }
 
-.infos input:valid~span,
-.infos input:focus~span,
-.textbox:not(:placeholder-shown).textbox:not(:focus)~span {
+.infos input:valid~label,
+.infos input:focus~label,
+.textbox:not(:placeholder-shown).textbox:not(:focus)~label {
     background-color: #00dfc4;
     color: #1d2b3a;
 }
@@ -117,8 +116,8 @@ body {
 }
 
 /* .infos textarea:valid~span, */
-.infos textarea:focus~span,
-.textbox:not(:placeholder-shown).textbox:not(:focus)~span {
+.infos textarea:focus~label,
+.textbox:not(:placeholder-shown).textbox:not(:focus)~label {
     color: rgba(255, 255, 255, 0.555);
     transform: translateX(10px) translateY(-8px);
     font-size: 10px;
@@ -129,8 +128,8 @@ body {
 }
 
 /* .infos textarea:valid~span, */
-.infos textarea:focus~span,
-.textbox:not(:placeholder-shown).textbox:not(:focus)~span {
+.infos textarea:focus~label,
+.textbox:not(:placeholder-shown).textbox:not(:focus)~label {
     background-color: #00dfc4ed;
     color: #1d2b3a;
 }
