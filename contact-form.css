@@ -63,6 +63,7 @@ body {
     min-width: 250px;
     outline: none;
     color: white;
+    font-family:poppins;
 }
 
 .infos span {
