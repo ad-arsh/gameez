@@ -115,7 +115,7 @@ body {
     padding-top: 10px;
 }
 
-/* .infos textarea:valid~span, */
+/* .infos textarea:valid~label, */
 .infos textarea:focus~label,
 .textbox:not(:placeholder-shown).textbox:not(:focus)~label {
     color: rgba(255, 255, 255, 0.555);
@@ -127,7 +127,7 @@ body {
     padding: 3px 10px;
 }
 
-/* .infos textarea:valid~span, */
+/* .infos textarea:valid~label, */
 .infos textarea:focus~label,
 .textbox:not(:placeholder-shown).textbox:not(:focus)~label {
     background-color: #00dfc4ed;
@@ -175,7 +175,7 @@ body {
         margin: auto;
     }
 
-    .infos span {
+    .infos label {
         left: 90px;
     }
 
@@ -200,7 +200,7 @@ body {
         display: none;
     }
 
-    .infos span{ 
+    .infos label{ 
         left: 40px;
     }
 
